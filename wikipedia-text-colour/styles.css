@@ -1,0 +1,18 @@
+/* Variant №1. All the CSS is !important just in case. Better to just put it there
+   than debug specificity rules later. */
+
+body[design-bookmarklet-variant='1'] #mw-content-text {
+  color: rgb(100, 100, 100) !important;
+}
+
+/* Variant №2. */
+
+body[design-bookmarklet-variant='2'] #mw-content-text {
+  color: rgb(180, 180, 180) !important;
+}
+
+/* Variant №3. */
+
+body[design-bookmarklet-variant='3'] #mw-content-text {
+  color: rgb(0, 0, 130) !important;
+}

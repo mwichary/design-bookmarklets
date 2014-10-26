@@ -1,0 +1,16 @@
+<meta charset='utf-8'>
+<title>Bookmarklet</title>
+
+<style>
+  body {
+    padding: 30px;
+    font-family: "Helvetica Neue", Arial;
+  }
+</style>
+
+<body>
+  Drag me to your bookmark bar! » 
+  <a href="javascript:(function(){ if (typeof designBookmarkletStart != 'undefined') { designBookmarkletStart() } else { var scriptEl = document.createElement('script'); scriptEl.type = 'text/javascript'; scriptEl.src = 'http://localhost:5060/bookmarklet.js?' + (Math.random()); document.querySelector('head').appendChild(scriptEl); }})();">♺ Wikipedia text colour</a> 
+  <br><br>
+  (Press Shift+Command+B to show bookmark bar if not visible.)
+</body>
