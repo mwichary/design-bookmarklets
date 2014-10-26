@@ -1,6 +1,6 @@
-design-bookmarklets
+Design bookmarklets
 ===================
 
-Design bookmarklets (see https://medium.com/p/cbb10493286d for more details). 
+See https://medium.com/p/cbb10493286d for context.
 
-This page is mirrored at www.aresluna.org/design-bookmarklets
+This page is mirrored at www.aresluna.org/design-bookmarklets.
